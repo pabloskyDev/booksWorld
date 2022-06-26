@@ -3,6 +3,67 @@
 *::after {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    box-sizing: border-box;
 }
 
+.bg-red {
+    background: #b40001;
+    color: #fff;
+}
+
+.bg-red-brown {
+    background: #800000;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.bg-light-red {
+    background: #80000085;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.btn-book {
+    background: #800000;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.btn-book:hover {
+    background: #80000085;
+}
+
+#header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#main .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+#libro-destacado .card .photoCard {
+    height: 300px;
+    object-fit: cover;
+}
+
+#libro-destacado .card .card-text {
+    height: 130px;
+    overflow-y: hidden;
+}
+
+#footer .socialM img{
+    width: 20px;
+}
+
+#footer {
+    background: linear-gradient(90deg, #800000, #700303 25%, #640303);
+}
+
+#footer a {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+}
